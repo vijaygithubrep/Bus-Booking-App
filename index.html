@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Bus Booking App</h2>
+    <label for="'filter">Filter :
+    <select id="filter">
+        <option value="All">All</option>
+        <option value="Bus1">Bus 1</option>
+        <option value="Bus2">Bus 2</option>
+        <option value="Bus3">Bus 3</option>
+        <option value="Bus4">Bus 4</option>
+    </select>
+    </label>
+
+<form id="bookingForm">
+    <label for="name">Name : 
+    <input type="text" class="name" id="name"/></label>
+
+    <label for="email">Email : 
+    <input type="email" class="email" id="email"/></label>
+
+     <label for="phone">Phone : 
+    <input type="phone" class="phone" id="phone"/></label>
+
+    <label>Car Number :
+    <select  id="carNumber">
+        <option value="Bus1">Bus 1</option>
+        <option value="Bus2">Bus 2</option>
+        <option value="Bus3">Bus 3</option>
+        <option value="Bus4">Bus 4</option>
+    </select></label><br/><br/>
+
+   <button type="submit">Book</button>
+</form>
+<div  id="message"></div>
+<script src='booking.js'></script>
+</body>
+</html>
